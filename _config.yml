@@ -83,30 +83,31 @@ cover:
   subtitle: '👩🏻‍💻ちんぶれあ'
   search: A Wonderful Theme for Hexo # search bar placeholder
   features:
-    - name: 文档
+    - name: Home
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
-      url: /v4/getting-started/
-    - name: 帮助
+      url: /
+    - name: Archives
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
-      url: faqs/
-    - name: 示例
-      icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
-      url: /examples/
-    - name: 社区
-      icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
-      url: /contributors/
-    - name: 博客
-      icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4da.svg
       url: /archives/
-    - name: 源码
+    - name: Volantis
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
-      url: https://github.com/volantis-x/hexo-theme-volantis/
+#      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4af.svg
+      url: /v4/getting-started/
+    - name: Feedback
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1fab6.svg
+      url: /faqs/
+    - name: Friends
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f49d.svg
+      url: /contributors/
+    - name: AboutMe
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f42c.svg
+      url: /about/
 ############################### Cover ############################### > end
 
 pages:
@@ -633,6 +634,7 @@ plugins:
       - /images/parallax_logo/7_logo4.png
       - /images/parallax_logo/7_logo5.png
       - /images/parallax_logo/7_logo7.jpeg
+      - /images/parallax_logo/7_logo_b.webp
 #      - /images/parallax_logo/7_logo6.png
 #
 #      - https://7.dusays.com/2021/02/12/e87cab65e7775.png
@@ -667,7 +669,7 @@ plugins:
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
   aplayer:
-    enable: #true
+    enable: true
     js:
       aplayer: https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js
       meting: https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js
