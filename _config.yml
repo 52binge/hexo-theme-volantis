@@ -79,8 +79,8 @@ cover:
   background: https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
   # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
-  title: 'Volantis'
-  subtitle: ''
+  title: '星の海' # ちんブレア
+  subtitle: '👩🏻‍💻ちんぶれあ'
   search: A Wonderful Theme for Hexo # search bar placeholder
   features:
     - name: 文档
@@ -632,7 +632,9 @@ plugins:
       - /images/parallax_logo/7_logo3.png
       - /images/parallax_logo/7_logo4.png
       - /images/parallax_logo/7_logo5.png
-      - /images/parallax_logo/7_logo6.png
+      - /images/parallax_logo/7_logo7.jpeg
+#      - /images/parallax_logo/7_logo6.png
+#
 #      - https://7.dusays.com/2021/02/12/e87cab65e7775.png
 #      - https://7.dusays.com/2021/02/10/78789d247317f.png
 #      - https://7.dusays.com/2021/02/12/b452f9344b8f4.png
