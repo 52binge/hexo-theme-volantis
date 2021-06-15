@@ -373,7 +373,6 @@ sidebar:
     blogger:
       class: blogger #blogger
       display: [desktop, mobile] # [desktop, mobile]
-#      avatar: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
 #      avatar: https://cdn.jsdelivr.net/gh/45921/cdn-images@main/avatar/sena.shiratama.jpg
       avatar: /images/logos/logo10.png
       shape: circle # circle, rectangle
@@ -397,7 +396,7 @@ sidebar:
       display: [desktop, mobile] # [desktop, mobile]
       header:
         icon: fas fa-list
-        title: 本文目录
+        title: Toc 本文目录
       list_number: false
       min_depth: 2
       max_depth: 5
@@ -414,7 +413,7 @@ sidebar:
     # tagcloud widget
     tagcloud:
       class: tagcloud
-      display: [desktop] # [desktop, mobile]
+      display: [] # [desktop, mobile]
       header:
         icon: fas fa-tags
         title: TagsCloud 标签云
@@ -430,10 +429,12 @@ sidebar:
     qrcode:
       class: qrcode
       display: [desktop, mobile] # [desktop, mobile]
-      height: 64px  # Automatic height if not set
+#      height: 64px
+      height: 204px  # Automatic height if not set
       images:
-        - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
-        - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
+        - /images/logos/pay_blog.png
+#        - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
+#        - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
     # ---------------------------------------
     # webinfo widget
     webinfo:
@@ -599,15 +600,22 @@ plugins:
 
   # Slide Background
   backstretch:
-    enable: #true
+    enable: false
     js: https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js
     position: cover       # cover: sticky on the cover.   fixed: Fixed as background for the site.
     shuffle: true         # shuffle playlist
     duration: 10000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/001.jpg
-      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/002.jpg
+      - /images/parallax_logo/7_logo1.png
+      - /images/parallax_logo/7_logo2.png
+      - /images/parallax_logo/7_logo_b.webp
+      - /images/parallax_logo/7_logo3.png
+      - /images/parallax_logo/7_logo4.png
+      - /images/parallax_logo/7_logo5.png
+      - /images/parallax_logo/7_logo7.jpeg
+      - /images/parallax_logo/7_logo7.jpeg
+      - /images/parallax_logo/7_logo_b.webp
 
   # 视差滚动效果
   # https://github.com/pixelcog/parallax.js/tree/v2.0.0-alpha
@@ -739,7 +747,7 @@ rightmenu:
   enable: true
   faicon: fa
   # hr: 分割线, music: 音乐控制器
-  layout: [home, hr, help, examples, contributors, hr, source_docs, source_theme, hr, print, darkmode, hr, music]
+  layout: [home, hr, examples, theme_settings, contributors, hr, source_docs, source_theme, hr, print, darkmode, hr, music]
   # 可选功能项
   print:                  # 只有文章页才允许自定义打印，建议打印选项勾选背景图形 & 取消勾选页眉和页脚
     name: 打印页面        #       👆 class = article.post 的页面
@@ -759,14 +767,18 @@ rightmenu:
     name: 示例博客
     icon: fa fa-rss
     url: https://volantis.js.org/examples/
+  theme_settings:
+    name: 主题文档
+    icon: fa fa-fan fa-spin
+    url: https://volantis.js.org/v4/theme-settings/
   source_theme:
     name: 主题源码
     icon: fa fa-code-branch
     url: https://github.com/volantis-x/hexo-theme-volantis/
-#  help:
-#    name: 常见问题
-#    icon: fa fa-question
-#    url: https://volantis.js.org/faqs/
+  help:
+    name: 常见问题
+    icon: fa fa-question
+    url: https://volantis.js.org/faqs/
 #  contributors:
 #    name: 加入社区
 #    icon: fa fa-fan fa-spin
@@ -907,7 +919,8 @@ custom_css:
     zoom-in: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-in.png
     grab: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/openhand.png
   font_smoothing: true # font-smoothing for webkit
-  max_width: 1080px # Sum of body width and sidebar width (This limit will be exceeded when the device width is greater than 2000px, reaching 75% of the total width)
+#  max_width: 1080px # Sum of body width and sidebar width (This limit will be exceeded when the device width is greater than 2000px, reaching 75% of the total width)
+  max_width: 1120px # Sum of body width and sidebar width (This limit will be exceeded when the device width is greater than 2000px, reaching 75% of the total width)
   scrollbar:
     size: 4px
     border: 2px
@@ -942,6 +955,7 @@ custom_css:
     button: 4px
   fontsize:
     root: 16px
+#    root: 18px
     h1: 1.5rem # 不推荐用在文章中
     h2: 1.5rem
     h3: 1.25rem
@@ -956,12 +970,14 @@ custom_css:
     logofont:
       fontfamily: '"Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
       name: 'Varela Round'
+#      name: 'Microsoft YaHei'
       url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf
       weight: normal
       style: normal
     bodyfont:
       fontfamily: 'UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
-      name: 'UbuntuMono'
+#      name: 'UbuntuMono'
+      name: 'Microsoft YaHei'
       url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf
       weight: normal
       style: normal
