@@ -1,11 +1,8 @@
-
-
 default:
   avatar: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/avatar/round/3442075.svg
   link: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/link/8f277b4ee0ecd.svg
   cover: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/cover/76b86c0226ffd.svg
   image: https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg
-
 
 #
 # 上面的是 v5 新版通用配置，可兼容 Stellar 主题，请放心使用
@@ -42,22 +39,24 @@ cdn:
 navbar:
   visiable: auto # always, auto
   logo: # choose [img] or [icon + title]
-    img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+#    img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+#    img: https://cdn.jsdelivr.net/gh/45921/cdn-images@main/avatar/sena.shiratama.jpg
+    img: /images/logos/logo10.png
     icon:
     title:
   menu:
     - name: 博客
       icon: fas fa-rss
       url: /
+    - name: 归档
+      icon: fas fa-archive
+      url: archives/
     - name: 分类
       icon: fas fa-folder-open
       url: categories/
     - name: 标签
       icon: fas fa-tags
       url: tags/
-    - name: 归档
-      icon: fas fa-archive
-      url: archives/
     - name: 友链
       icon: fas fa-link
       url: friends/
@@ -71,7 +70,7 @@ navbar:
 ############################### Cover ############################### > start
 cover:
   height_scheme: full # full, half
-  layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  layout_scheme: search # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: true
@@ -81,7 +80,7 @@ cover:
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: '星の海' # ちんブレア
   subtitle: '👩🏻‍💻ちんぶれあ'
-  search: A Wonderful Theme for Hexo # search bar placeholder
+  search: A Wonderful Keywords # search bar placeholder
   features:
     - name: Home
       icon: #
@@ -91,11 +90,11 @@ cover:
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4da.svg
       url: /archives/
-    - name: Volantis
-      icon: #
-#      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4af.svg
-      url: /v4/getting-started/
+#    - name: Volantis
+#      icon: #
+##      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+#      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4af.svg
+#      url: /v4/getting-started/
     - name: Feedback
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1fab6.svg
@@ -172,10 +171,10 @@ article:
       # ----------------
       # 打赏组件 (for layout: post)
       donate:
-        enable: false
+        enable: #true
         images:
-          - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
-          - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
+#          - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
+          - /images/logos/pay_blog.png
     # 文章底部信息
     # 从 meta_library 中取
     bottom_meta: [updated, tags, share]
@@ -185,8 +184,7 @@ article:
       # https://volantis.js.org/advanced-settings/#多人协同
       author:
         avatar:
-        #name: ブレア
-        name: blairchan
+        name: blairchen
         url: /
       # 文章创建日期
       date:
@@ -225,6 +223,14 @@ article:
           img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png
         - id: qzone
           img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
+        - id: facebook
+          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/facebook.png
+#        - id: twitter
+#          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/twitter.png
+#        - id: wechat
+#          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
+#        - id: linkedin
+#          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/linkedin.png
         - id: weibo
           img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
         - id: # qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
@@ -365,21 +371,23 @@ sidebar:
     # ---------------------------------------
     # blogger info widget
     blogger:
-      class: blogger
+      class: blogger #blogger
       display: [desktop, mobile] # [desktop, mobile]
-      avatar: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
-      shape: rectangle # circle, rectangle
+#      avatar: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+#      avatar: https://cdn.jsdelivr.net/gh/45921/cdn-images@main/avatar/sena.shiratama.jpg
+      avatar: /images/logos/logo10.png
+      shape: circle # circle, rectangle
       url: /about/
-      title:
-      subtitle:
-      jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+      title: BlairChen
+      subtitle: Gravitation is not responsible for people falling in love
+      jinrishici: #true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
         - icon: fas fa-rss
           url: /atom.xml
         - icon: fas fa-envelope
-          url: mailto:me@xxx.com
+          url: mailto:blair.value@gmail.com
         - icon: fab fa-github
-          url: https://github.com/volantis-x/
+          url: https://github.com/blair101/
         - icon: fas fa-headphones-alt
           url: /
     # ---------------------------------------
@@ -400,17 +408,17 @@ sidebar:
       display: [desktop] # [desktop, mobile]
       header:
         icon: fas fa-folder-open
-        title: 文章分类
-        url: /blog/categories/
+        title: Categories 文章分类
+        url: /categories/
     # ---------------------------------------
     # tagcloud widget
     tagcloud:
       class: tagcloud
-      display: [desktop, mobile] # [desktop, mobile]
+      display: [desktop] # [desktop, mobile]
       header:
         icon: fas fa-tags
-        title: 热门标签
-        url: /blog/tags/
+        title: TagsCloud 标签云
+        url: /tags/
       min_font: 14
       max_font: 24
       color: true
@@ -630,19 +638,14 @@ plugins:
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
       - /images/parallax_logo/7_logo1.png
       - /images/parallax_logo/7_logo2.png
+      - /images/parallax_logo/7_logo_b.webp
       - /images/parallax_logo/7_logo3.png
       - /images/parallax_logo/7_logo4.png
       - /images/parallax_logo/7_logo5.png
       - /images/parallax_logo/7_logo7.jpeg
+      - /images/parallax_logo/7_logo7.jpeg
       - /images/parallax_logo/7_logo_b.webp
 #      - /images/parallax_logo/7_logo6.png
-#
-#      - https://7.dusays.com/2021/02/12/e87cab65e7775.png
-#      - https://7.dusays.com/2021/02/10/78789d247317f.png
-#      - https://7.dusays.com/2021/02/12/b452f9344b8f4.png
-#      - https://7.dusays.com/2021/02/12/8f20463ff67c1.png
-#      - https://7.dusays.com/2021/02/12/ffd190bb54398.png
-#      - https://7.dusays.com/2021/02/12/af09d405c91ec.png
 
 #      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/001.jpg
 #      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/002.jpg
