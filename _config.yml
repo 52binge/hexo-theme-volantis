@@ -387,14 +387,18 @@ sidebar:
       subtitle: Gravitation is not responsible for people falling in love
       jinrishici: #true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
-        - icon: fas fa-rss
-          url: /atom.xml
+#        - icon: fas fa-rss
+#          url: /atom.xml
+#          url: /
         - icon: fas fa-envelope
           url: mailto:blair.value@gmail.com
         - icon: fab fa-github
-          url: https://github.com/blair101/
-        - icon: fas fa-headphones-alt
-          url: /
+          url: https://www.github.com/blair101/
+#        - icon: fas fa-headphones-alt
+        - icon: fab fa-youtube
+          url: https://bit.ly/3cyng4n
+        - icon: fab fa-twitter-square
+          url: https://www.twitter.com/blairechin
     # ---------------------------------------
     # toc widget (valid only in articles)
     toc:
@@ -754,7 +758,7 @@ plugins:
 ############################### Rightmenu ############################### > start
 # 自定义右键菜单
 rightmenu:
-  enable: true
+  enable: #true
   faicon: fa
   # hr: 分割线, music: 音乐控制器
   layout: [home, hr, examples, theme_settings, contributors, hr, source_docs, source_theme, hr, print, darkmode, hr, music]
