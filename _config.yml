@@ -55,12 +55,12 @@ navbar:
     - name: Categories
       icon: fas fa-folder-open
       url: categories/
-    - name: Tags
-      icon: fas fa-tags
-      url: tags/
-#    - name: Friends
-#      icon: fas fa-link
-#      url: friends/
+#    - name: Tags
+#      icon: fas fa-tags
+#      url: tags/
+    - name: Friends
+      icon: fas fa-link
+      url: friends/
     - name: About
       icon: fas fa-info-circle
       url: about/
@@ -443,7 +443,7 @@ sidebar:
 #      height: 64px
       height: 204px  # Automatic height if not set
       header:
-        icon: fas fa-credit-card
+        icon: fab fa-alipay
         title: QRcode
       images:
 #        - /images/logos/pay_wechat_blog1.jpg
@@ -466,11 +466,11 @@ sidebar:
         visitcounter:
           service: leancloud  # busuanzi, leancloud
           siteuv:
-            enable: #true
+            enable: true
             text: 'Number of Visitors：'
             unit: 'pepl'
           sitepv:
-            enable: #true
+            enable: true
             text: 'Total Visits ：'
             unit: 'times'
         lastupd:
@@ -615,7 +615,7 @@ plugins:
 
   # Slide Background
   backstretch:
-    enable: false
+    enable: #true
     js: https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js
     position: cover       # cover: sticky on the cover.   fixed: Fixed as background for the site.
     shuffle: true         # shuffle playlist
