@@ -571,7 +571,7 @@ plugins:
 
   # highlight.js
   highlightjs:
-    enable: #true # Please set hexo.config.highlight.enable = false !!!
+    enable: true # Please set hexo.config.highlight.enable = false !!!
     js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/highlight.min.js
     css: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/styles/solarized-light.min.css
     # more: https://www.jsdelivr.com/package/npm/highlight.js?path=styles
@@ -587,7 +587,7 @@ plugins:
 
   # Codeblock Copy Button
   clipboard:
-    enable: #true
+    enable: true
     js: https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
 
   ######## Plugins for SEO:
@@ -610,7 +610,7 @@ plugins:
 
   # Typing Effects
   comment_typing:
-    enable: #true
+    enable: true
     js: https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/comment_typing.js
 
   # Slide Background
