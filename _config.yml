@@ -466,17 +466,17 @@ sidebar:
         visitcounter:
           service: leancloud  # busuanzi, leancloud
           siteuv:
-            enable: true
+            enable: #true
             text: 'Number of Visitors：'
             unit: 'pepl'
           sitepv:
-            enable: true
+            enable: #true
             text: 'Total Visits ：'
             unit: 'times'
         lastupd:
-          enable: #true
+          enable: true
           friendlyShow: true    # 更友好的时间显示
-          text: 'Last Time：'
+          text: 'Last Activity Time：'
           unit: 'days'
         runtime:
           enable: true
