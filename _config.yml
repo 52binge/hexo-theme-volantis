@@ -68,17 +68,13 @@ navbar:
     - name: About
       icon: fas fa-info-circle
       url: about/
-      rows:
-        - name: Beautiful
-          icon: fas fa-search fa-fw
-          url: /home
-        - name: hr
-        - name: Darkmode
-          icon: far fa-moon
-          toggle: darkmode
-#    - name: Darkmode
-#      icon: far fa-moon
-#      toggle: darkmode
+#      rows:
+#        - name: Beautiful
+#          icon: fas fa-search fa-fw
+#          url: /home
+    - name:
+      icon: far fa-moon
+      toggle: darkmode
   search: Search...   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
 
