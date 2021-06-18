@@ -48,20 +48,20 @@ navbar:
   menu:
     - name: Home
       icon: fas fa-rss
-      url: /archives
+      url: /
     - name: Archives
       icon: fas fa-archive
       url: archives/
     - name: Categories
       icon: fas fa-folder-open
       url: categories/
-    - name: Tags
-      icon: fas fa-tags
-      url: tags/
-#      rows:
-#      - name: Tags
-#        icon: fas fa-tags
-#        url: tags/
+      rows:
+      - name: Tags
+        icon: fas fa-tags
+        url: tags/
+#    - name: Tags
+#      icon: fas fa-tags
+#      url: tags/
     - name: Friends
       icon: fas fa-link
       url: friends/
