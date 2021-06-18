@@ -488,7 +488,7 @@ sidebar:
         lastupd:
           enable: true
           friendlyShow: true    # 更友好的时间显示
-          text: 'Last Activity Time：'
+          text: 'Activity Time：'
           unit: 'days'
         runtime:
           enable: true
