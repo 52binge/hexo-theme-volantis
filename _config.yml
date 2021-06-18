@@ -48,17 +48,20 @@ navbar:
   menu:
     - name: Home
       icon: fas fa-rss
-      url: /
+      url: /archives
     - name: Archives
       icon: fas fa-archive
       url: archives/
     - name: Categories
       icon: fas fa-folder-open
       url: categories/
-      rows:
-      - name: Tags
-        icon: fas fa-tags
-        url: tags/
+    - name: Tags
+      icon: fas fa-tags
+      url: tags/
+#      rows:
+#      - name: Tags
+#        icon: fas fa-tags
+#        url: tags/
     - name: Friends
       icon: fas fa-link
       url: friends/
@@ -887,7 +890,7 @@ color_scheme:
     h5: '#555'
     h6: '#666'
 #    p: '#444'
-    p: '#000'
+    p: '#111'
 
     # 列表文字
     list: '#666'
