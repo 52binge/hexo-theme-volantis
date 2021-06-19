@@ -635,13 +635,13 @@ plugins:
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
 #      - /images/logos/shiraha-bg.png
-      - /images/parallax_logo/7_logo1.png
-      - /images/parallax_logo/7_logo2.png
-      - /images/parallax_logo/7_logo_b.webp
-      - /images/parallax_logo/7_logo3.png
-      - /images/parallax_logo/7_logo4.png
-      - /images/parallax_logo/7_logo5.png
-      - /images/parallax_logo/7_logo7.jpeg
+      - /images/logos/parallax-bg/7_logo1.png
+      - /images/logos/parallax-bg/7_logo2.png
+      - /images/logos/parallax-bg/7_logo_b.webp
+      - /images/logos/parallax-bg/7_logo3.png
+      - /images/logos/parallax-bg/7_logo4.png
+      - /images/logos/parallax-bg/7_logo5.png
+      - /images/logos/parallax-bg/7_logo7.jpeg
 
   # 视差滚动效果
   # https://github.com/pixelcog/parallax.js/tree/v2.0.0-alpha
@@ -651,16 +651,16 @@ plugins:
     enable: true
     shuffle: true         # shuffle playlist
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - /images/parallax_logo/7_logo1.png
-      - /images/parallax_logo/7_logo2.png
-      - /images/parallax_logo/7_logo_b.webp
-      - /images/parallax_logo/7_logo3.png
-      - /images/parallax_logo/7_logo4.png
-      - /images/parallax_logo/7_logo5.png
-      - /images/parallax_logo/7_logo7.jpeg
-      - /images/parallax_logo/7_logo7.jpeg
-      - /images/parallax_logo/7_logo_b.webp
-#      - /images/parallax_logo/7_logo6.png
+      - /images/logos/parallax-bg/7_logo1.png
+      - /images/logos/parallax-bg/7_logo2.png
+      - /images/logos/parallax-bg/7_logo_b.webp
+      - /images/logos/parallax-bg/7_logo3.png
+      - /images/logos/parallax-bg/7_logo4.png
+      - /images/logos/parallax-bg/7_logo5.png
+      - /images/logos/parallax-bg/7_logo7.jpeg
+      - /images/logos/parallax-bg/7_logo7.jpeg
+      - /images/logos/parallax-bg/7_logo_b.webp
+#      - /images/parallax-bg/7_logo6.png
 
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
