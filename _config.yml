@@ -667,9 +667,6 @@ plugins:
       - /images/logos/parallax-bg/7_logo4.png
       - /images/logos/parallax-bg/7_logo5.png
       - /images/logos/parallax-bg/7_logo7.jpeg
-      - /images/logos/parallax-bg/7_logo7.jpeg
-      - /images/logos/parallax-bg/7_logo_b.webp
-#      - /images/parallax-bg/7_logo6.png
 
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
@@ -1035,6 +1032,7 @@ analytics:
   leancloud: # 请使用自己的 id & key 以防止数据丢失
     app_id: u9j57bwJod4EDmXWdxrwuqQT-MdYXbMMI
     app_key: jfHtEKVE24j0IVCGHbvuFClp
+
     custom_api_server: # 国际版一般不需要写，除非自定义了 API Server
 ############################### Analytics ############################### > end
 
