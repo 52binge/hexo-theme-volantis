@@ -1012,7 +1012,8 @@ custom_css:
       style: normal
     bodyfont:
 #      fontfamily: 'UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
-      fontfamily: 'PingFang SC, "Open Sans", "Microsoft YaHei", Helvetica, Arial'
+#      fontfamily: 'PingFang SC, "Open Sans", "Microsoft YaHei", Helvetica, Arial' 2022-02-23 comment this row
+      fontfamily: '-apple-technique, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif'
       name: 'UbuntuMono'
       url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf
       weight: normal
