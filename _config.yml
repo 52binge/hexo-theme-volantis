@@ -62,6 +62,9 @@ navbar:
 #    - name: Tags
 #      icon: fas fa-tags
 #      url: tags/
+    - name: Spark
+      icon: fas fa-tags
+      url: spark/
     - name: Friends
       icon: fas fa-link
       url: friends/
@@ -405,7 +408,7 @@ sidebar:
       shape: circle # circle, rectangle
       url: /aboutMe/
       title: BlairChen
-      subtitle: Gravitation is not responsible for people falling in love
+      subtitle: 人而不苦练，焉能艺精深？ # Gravitation is not responsible for people falling in love
       jinrishici: #true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
 #        - icon: fas fa-rss
