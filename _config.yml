@@ -114,7 +114,7 @@ cover:
     - name: Categories
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1fab6.svg
-      url: /categoriesc
+      url: /categories
     - name: Friends
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f49d.svg
