@@ -123,10 +123,10 @@ cover:
 #      icon: #
 #      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f49d.svg
 #      url: /contributors/
-    - name: AboutMe
+    - name: About
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f42c.svg
-      url: /aboutMe/
+      url: /about/
 #    - name: Volantis
 #      icon: #
 ##      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
