@@ -17,8 +17,8 @@
   }
   if (theme.pjax_cover.enableCover && page && page.cover) {
     theme.pjax_cover.frontMatterCover = page.cover;
-<!--     if (is_home() && page.prev == 0 && theme.cover.height_scheme == 'full') { blair@2021-06-16-->
-    if (page.prev == 0 && theme.cover.height_scheme == 'full') {
+    if (is_home() && page.prev == 0 && theme.cover.height_scheme == 'full') {
+//    if (page.prev == 0 && theme.cover.height_scheme == 'full') { // blair@2021-06-16 add this line
     theme.pjax_cover.frontMatterCover = 'full';
     } else {
     theme.pjax_cover.frontMatterCover = 'half';
