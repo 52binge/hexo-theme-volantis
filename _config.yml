@@ -68,6 +68,9 @@ navbar:
     - name: Friends
       icon: fas fa-link
       url: friends/
+#   - name: Tweet
+#      icon: fas fa-tags
+#      url: tweet/
     - name: About
       icon: fas fa-info-circle
       url: about/
@@ -119,6 +122,10 @@ cover:
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f49d.svg
       url: /friends
+    - name: Tweet
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f49d.svg
+      url: /tweet
 #    - name: Contributors
 #      icon: #
 #      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f49d.svg
