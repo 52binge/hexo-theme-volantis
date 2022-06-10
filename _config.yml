@@ -68,12 +68,12 @@ navbar:
     - name: Friends
       icon: fas fa-link
       url: friends/
-#   - name: Tweet
-#      icon: fas fa-tags
-#      url: tweet/
     - name: About
       icon: fas fa-info-circle
       url: about/
+    - name: Tweet
+      icon: fas fa-tags
+      url: tweet/
 #      rows:
 #        - name: Beautiful
 #          icon: fas fa-search fa-fw
@@ -122,6 +122,10 @@ cover:
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f49d.svg
       url: /spark
+    - name: Interview
+      icon: #b
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f42c.svg
+      url: /inter
     - name: Tweet
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f49d.svg
@@ -130,10 +134,10 @@ cover:
 #      icon: #
 #      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f49d.svg
 #      url: /contributors/
-    - name: About
-      icon: #b
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f42c.svg
-      url: /about/
+#    - name: About
+#      icon: #b
+#      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f42c.svg
+#      url: /about/
 #    - name: Volantis
 #      icon: #
 ##      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
