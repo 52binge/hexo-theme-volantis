@@ -125,7 +125,7 @@ cover:
     - name: Interview
       icon: #b
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f42c.svg
-      url: /inter
+      url: /interview
     - name: Tweet
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f49d.svg
