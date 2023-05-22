@@ -126,10 +126,6 @@ cover:
       icon: #b
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f42c.svg
       url: /interview
-    - name: IELTS+
-      icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f49d.svg
-      url: /ielts-pan/
     - name: Plan
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0.1/assets/svg/1f49d.svg
@@ -433,7 +429,7 @@ sidebar:
 #      avatar: https://cdn.jsdelivr.net/gh/45921/cdn-images@main/avatar/sena.shiratama.jpg
       avatar: /images/logos/logo10.png
       shape: circle # circle, rectangle
-      url: /aboutMe/
+      url: /about/
       title: BlairChen
       subtitle: reading • writing daily 📚 <br> english daily  🧘 # Gravitation is not responsible for people falling in love
       jinrishici: #true # Poetry Today. You can set a string, and it will be displayed when loading fails.
@@ -449,7 +445,7 @@ sidebar:
         - icon: fab fa-youtube
           url: https://bit.ly/3cyng4n
         - icon: fab fa-twitter-square
-          url: https://www.twitter.com/_blairchen
+          url: https://www.twitter.com/
     # ---------------------------------------
     # toc widget (valid only in articles)
     toc:
