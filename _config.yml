@@ -288,7 +288,7 @@ article:
 comments:
   title: <i class='fas fa-comments'></i> Comments
   subtitle:
-  service: #disqus # valine, twikoo, waline, minivaline, disqus, disqusjs, gitalk, vssue, livere, isso, hashover
+  service: disqus # valine, twikoo, waline, minivaline, disqus, disqusjs, gitalk, vssue, livere, isso, hashover
   # Valine
   # https://valine.js.org/
   valine:
