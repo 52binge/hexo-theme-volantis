@@ -427,10 +427,10 @@ sidebar:
       class: blogger #blogger
       display: [desktop, mobile] # [desktop, mobile]
 #      avatar: https://cdn.jsdelivr.net/gh/45921/cdn-images@main/avatar/sena.shiratama.jpg
-      avatar: /images/logos/logo10.png
+      avatar: /images/logos/logo11.jpg
       shape: circle # circle, rectangle
       url: /about/
-      title: BlairChen
+      title: Blair Chen
       subtitle: reading • writing daily 📚 <br> english daily  🧘 # Gravitation is not responsible for people falling in love
       jinrishici: #true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
