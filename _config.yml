@@ -431,7 +431,7 @@ sidebar:
       shape: circle # circle, rectangle
       url: /about/
       title: Blair Chen
-      subtitle: reading • writing daily 📚 <br> english daily  🧘 # Gravitation is not responsible for people falling in love
+      subtitle: 📚 Morning Call 🧘<br> Only through continuous effort will fruits be borne. # Gravitation is not responsible for people falling in love
       jinrishici: #true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
 #        - icon: fas fa-rss
