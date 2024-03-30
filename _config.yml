@@ -41,7 +41,8 @@ navbar:
   logo: # choose [img] or [icon + title]
 #    img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
 #    img: https://cdn.jsdelivr.net/gh/45921/cdn-images@main/avatar/sena.shiratama.jpg
-    img: /images/logos/logo10.png
+    img: /images/logos/logo-me3.jpg
+#    img: /images/logos/emoji-face-logo.png
     icon:
     title:
   url: tags/
